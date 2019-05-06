@@ -1,0 +1,16 @@
+PODS:
+  - AvaDemo (0.1.0)
+
+DEPENDENCIES:
+  - AvaDemo (from `../`)
+
+EXTERNAL SOURCES:
+  AvaDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AvaDemo: cd56e1ab78993f6ea29f64968ea577e4f75d1fca
+
+PODFILE CHECKSUM: 0a3a58a19a773a51a8e8ecd4c4a0d8dcdf475715
+
+COCOAPODS: 1.5.3

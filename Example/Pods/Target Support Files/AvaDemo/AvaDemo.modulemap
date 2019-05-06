@@ -1,0 +1,6 @@
+framework module AvaDemo {
+  umbrella header "AvaDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

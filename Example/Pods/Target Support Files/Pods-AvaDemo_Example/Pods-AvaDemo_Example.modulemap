@@ -1,0 +1,6 @@
+framework module Pods_AvaDemo_Example {
+  umbrella header "Pods-AvaDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

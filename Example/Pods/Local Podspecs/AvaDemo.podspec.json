@@ -1,0 +1,22 @@
+{
+  "name": "AvaDemo",
+  "version": "0.1.0",
+  "summary": "A short description of AvaDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/avanlanching/AvaDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "avanlanching": "18269285634@163.com"
+  },
+  "source": {
+    "git": "https://github.com/avanlanching/AvaDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AvaDemo/Classes/**/*"
+}

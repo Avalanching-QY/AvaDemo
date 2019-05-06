@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B2014B5013DA195509E277ECA5B79A /* Pods-AvaDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA1B4587489DD98923A66C54D3258B2 /* Pods-AvaDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1572FDD22581C5BB392F86545B7AF8DC /* Pods-AvaDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 893F9EE068796CEA3555ABEA5335F8D2 /* Pods-AvaDemo_Tests-dummy.m */; };
+		49ECF6811B1386BAFAC23F11F84DECA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		54D7567ADD60EDD14FCED42434C5231B /* AvaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 125AB1F6FBD7C145D4B77B390D55B2F4 /* AvaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5898E52B2765DA80D171ACBBDC68168C /* Pods-AvaDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA26171BB5A950FFE937967D36E0D5 /* Pods-AvaDemo_Example-dummy.m */; };
+		829A4510074043E31093A8AB0E09539E /* AvaLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F85067D403D00852B723D23D7A878 /* AvaLog.m */; };
+		87D00228EABEEB4F4A8312A335E797E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A5734B7DC4BCA495681B6FC70A1068C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E0FBA89818822CBF3E9AE6BA7B7349F1 /* Pods-AvaDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A08F584490B9E6B898D47CCECCFF25 /* Pods-AvaDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA079EEBC9BD167BDCBDDC91C821A46B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8A237FC57CDBE87A0373F0C02A7A4 /* ReplaceMe.m */; };
+		EDC9B5EF48C5B7E01DF10F99D00B6A19 /* AvaLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F618D9DA698DFB298343CB087D21695 /* AvaLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2D7C25AD493772FA35ADF223D55209F /* AvaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C994FE607449B28927FCB5164FA399A0 /* AvaDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3E640D3DC67D9D501A01A8998B9306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D7343351CFA2767B639CBBBE4F4FB4;
+			remoteInfo = "Pods-AvaDemo_Example";
+		};
+		C41C17DEDC58FE6F562C405FD2CA5531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9772630B2260F3028694760A02A2E1A9;
+			remoteInfo = AvaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvaDemo.xcconfig; sourceTree = "<group>"; };
+		11999D6F3B3E6B6CB63EA6DDED3E040A /* Pods-AvaDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Tests-resources.sh"; sourceTree = "<group>"; };
+		125AB1F6FBD7C145D4B77B390D55B2F4 /* AvaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvaDemo-umbrella.h"; sourceTree = "<group>"; };
+		1BDFD9054761D91FEFDB83D3642AAF23 /* Pods-AvaDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Example-resources.sh"; sourceTree = "<group>"; };
+		238708A4F31B2DDCD986C21926C92137 /* Pods-AvaDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B70EBC53C3D5B16E6E6CAC4C9ED02F2 /* Pods-AvaDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		339E308B1D0166A703B6C7A3711B6148 /* Pods-AvaDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52A08F584490B9E6B898D47CCECCFF25 /* Pods-AvaDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		531CDF682F052F2F136AB61D03A9904F /* Pods-AvaDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		55A5544802B1C951FA826FAA297D63D0 /* Pods_AvaDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaDemo_Tests.framework; path = "Pods-AvaDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FA33336A4A785863FDAFA8F421C00C /* Pods-AvaDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvaDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		56FAF5379AB1115D2288180A674708FD /* AvaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvaDemo.modulemap; sourceTree = "<group>"; };
+		5FC93E98C61A8F07AB827CDEA31D364B /* Pods-AvaDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6642E5335C2D90C654A850E18CADBA4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72606AE6DBA6E2BA137DCD3C09E112FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		740800AEAD7ADE30FADED90BEE1AABC5 /* Pods-AvaDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E1363BCFC3FD31AD679DAFB6894EC27 /* AvaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvaDemo.framework; path = AvaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		893F9EE068796CEA3555ABEA5335F8D2 /* Pods-AvaDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		94F3BC61C4DC157D747E0F931F5232A2 /* Pods_AvaDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaDemo_Example.framework; path = "Pods-AvaDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F618D9DA698DFB298343CB087D21695 /* AvaLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvaLog.h; path = AvaDemo/Classes/AvaLog.h; sourceTree = "<group>"; };
+		9F8FD41EAF8426D57BB09173475763FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A381E3E59DFD24F4D88FBF03569DCE66 /* Pods-AvaDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvaDemo_Example.modulemap"; sourceTree = "<group>"; };
+		A84F85067D403D00852B723D23D7A878 /* AvaLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvaLog.m; path = AvaDemo/Classes/AvaLog.m; sourceTree = "<group>"; };
+		BBCFF300735CF7C48A8B0A51519BC72D /* Pods-AvaDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C08B026CA9086233BEE9FC59D2A2BC92 /* AvaDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvaDemo-prefix.pch"; sourceTree = "<group>"; };
+		C12AAAE0B1B4D60E496910A7C4C2CEC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C994FE607449B28927FCB5164FA399A0 /* AvaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvaDemo-dummy.m"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D54A12F419DD16199E2D6E176C93CE06 /* Pods-AvaDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DD204DD1E15C83EFEE21398A71056403 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCA26171BB5A950FFE937967D36E0D5 /* Pods-AvaDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		E2F82DB7AC218434F0C5FC193460C368 /* Pods-AvaDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E7D8A237FC57CDBE87A0373F0C02A7A4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AvaDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		EFA1B4587489DD98923A66C54D3258B2 /* Pods-AvaDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FF81549FFEE1CA38CF2BD525A95C3C41 /* Pods-AvaDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB8C82922472E445163EE2F5A63E6C7 /* AvaDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AvaDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC7951C6822D128E7583F04B3F71380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5734B7DC4BCA495681B6FC70A1068C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01AC5B0232753FE803C57C6D641E1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49ECF6811B1386BAFAC23F11F84DECA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE0FE06CA8D266F92AE4218B2A56E24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D00228EABEEB4F4A8312A335E797E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A96653A23A5B765DD5AAE43DCAA0DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				421B5AA2DD3BF93ADA7D203975ACFB4F /* AvaDemo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		421B5AA2DD3BF93ADA7D203975ACFB4F /* AvaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F618D9DA698DFB298343CB087D21695 /* AvaLog.h */,
+				A84F85067D403D00852B723D23D7A878 /* AvaLog.m */,
+				E7D8A237FC57CDBE87A0373F0C02A7A4 /* ReplaceMe.m */,
+				C4989DDE1882D63F831E09495C370A30 /* Pod */,
+				B38C676D87910617604C5B0B67FD9DFF /* Support Files */,
+			);
+			name = AvaDemo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		799A62748A7A5E0A54816A0147877083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1363BCFC3FD31AD679DAFB6894EC27 /* AvaDemo.framework */,
+				94F3BC61C4DC157D747E0F931F5232A2 /* Pods_AvaDemo_Example.framework */,
+				55A5544802B1C951FA826FAA297D63D0 /* Pods_AvaDemo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D179B6A9B7C5C0513EFDA5A2E2AD7B /* Pods-AvaDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD204DD1E15C83EFEE21398A71056403 /* Info.plist */,
+				56FA33336A4A785863FDAFA8F421C00C /* Pods-AvaDemo_Tests.modulemap */,
+				238708A4F31B2DDCD986C21926C92137 /* Pods-AvaDemo_Tests-acknowledgements.markdown */,
+				5FC93E98C61A8F07AB827CDEA31D364B /* Pods-AvaDemo_Tests-acknowledgements.plist */,
+				893F9EE068796CEA3555ABEA5335F8D2 /* Pods-AvaDemo_Tests-dummy.m */,
+				D54A12F419DD16199E2D6E176C93CE06 /* Pods-AvaDemo_Tests-frameworks.sh */,
+				11999D6F3B3E6B6CB63EA6DDED3E040A /* Pods-AvaDemo_Tests-resources.sh */,
+				EFA1B4587489DD98923A66C54D3258B2 /* Pods-AvaDemo_Tests-umbrella.h */,
+				FF81549FFEE1CA38CF2BD525A95C3C41 /* Pods-AvaDemo_Tests.debug.xcconfig */,
+				339E308B1D0166A703B6C7A3711B6148 /* Pods-AvaDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-AvaDemo_Tests";
+			path = "Target Support Files/Pods-AvaDemo_Tests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B38C676D87910617604C5B0B67FD9DFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56FAF5379AB1115D2288180A674708FD /* AvaDemo.modulemap */,
+				0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */,
+				C994FE607449B28927FCB5164FA399A0 /* AvaDemo-dummy.m */,
+				C08B026CA9086233BEE9FC59D2A2BC92 /* AvaDemo-prefix.pch */,
+				125AB1F6FBD7C145D4B77B390D55B2F4 /* AvaDemo-umbrella.h */,
+				9F8FD41EAF8426D57BB09173475763FA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AvaDemo";
+			sourceTree = "<group>";
+		};
+		C4989DDE1882D63F831E09495C370A30 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FFB8C82922472E445163EE2F5A63E6C7 /* AvaDemo.podspec */,
+				C12AAAE0B1B4D60E496910A7C4C2CEC3 /* LICENSE */,
+				72606AE6DBA6E2BA137DCD3C09E112FC /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				25A96653A23A5B765DD5AAE43DCAA0DE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				799A62748A7A5E0A54816A0147877083 /* Products */,
+				D5A8AE5FFAE8DD4B864C9246FFF91F5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A8AE5FFAE8DD4B864C9246FFF91F5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF547BD04058D5227AC8FA75C8BB70A1 /* Pods-AvaDemo_Example */,
+				82D179B6A9B7C5C0513EFDA5A2E2AD7B /* Pods-AvaDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF547BD04058D5227AC8FA75C8BB70A1 /* Pods-AvaDemo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6642E5335C2D90C654A850E18CADBA4E /* Info.plist */,
+				A381E3E59DFD24F4D88FBF03569DCE66 /* Pods-AvaDemo_Example.modulemap */,
+				740800AEAD7ADE30FADED90BEE1AABC5 /* Pods-AvaDemo_Example-acknowledgements.markdown */,
+				BBCFF300735CF7C48A8B0A51519BC72D /* Pods-AvaDemo_Example-acknowledgements.plist */,
+				DDCA26171BB5A950FFE937967D36E0D5 /* Pods-AvaDemo_Example-dummy.m */,
+				531CDF682F052F2F136AB61D03A9904F /* Pods-AvaDemo_Example-frameworks.sh */,
+				1BDFD9054761D91FEFDB83D3642AAF23 /* Pods-AvaDemo_Example-resources.sh */,
+				52A08F584490B9E6B898D47CCECCFF25 /* Pods-AvaDemo_Example-umbrella.h */,
+				2B70EBC53C3D5B16E6E6CAC4C9ED02F2 /* Pods-AvaDemo_Example.debug.xcconfig */,
+				E2F82DB7AC218434F0C5FC193460C368 /* Pods-AvaDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-AvaDemo_Example";
+			path = "Target Support Files/Pods-AvaDemo_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B62D2B3E8CE621688FAE26D1A1F5A9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FBA89818822CBF3E9AE6BA7B7349F1 /* Pods-AvaDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EE3DB5FABB10A5867267AE5EAACDAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2014B5013DA195509E277ECA5B79A /* Pods-AvaDemo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F558E3675D6740D8EEE0EEB80D16EBEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D7567ADD60EDD14FCED42434C5231B /* AvaDemo-umbrella.h in Headers */,
+				EDC9B5EF48C5B7E01DF10F99D00B6A19 /* AvaLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E5F4978D56B921757AA0A9394499980 /* Pods-AvaDemo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656243E7E12DB9F388C02019A748DF9D /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Tests" */;
+			buildPhases = (
+				A2EE3DB5FABB10A5867267AE5EAACDAF /* Headers */,
+				CB48712A970A6311B0AD74CAF6480DF6 /* Sources */,
+				D01AC5B0232753FE803C57C6D641E1A3 /* Frameworks */,
+				DE21358D0ACC37A77A073F4761FD33EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE93D89030E34CE797E67775DB6CF5A /* PBXTargetDependency */,
+			);
+			name = "Pods-AvaDemo_Tests";
+			productName = "Pods-AvaDemo_Tests";
+			productReference = 55A5544802B1C951FA826FAA297D63D0 /* Pods_AvaDemo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9772630B2260F3028694760A02A2E1A9 /* AvaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC555DDCE4440233EAD31557A11B63F /* Build configuration list for PBXNativeTarget "AvaDemo" */;
+			buildPhases = (
+				F558E3675D6740D8EEE0EEB80D16EBEC /* Headers */,
+				4B6AA3EE27C1DB6371FB44F5DE269193 /* Sources */,
+				FE0FE06CA8D266F92AE4218B2A56E24F /* Frameworks */,
+				DD7CBA0A0C1F7BC7BCA1B7420D34FEEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvaDemo;
+			productName = AvaDemo;
+			productReference = 7E1363BCFC3FD31AD679DAFB6894EC27 /* AvaDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2D7343351CFA2767B639CBBBE4F4FB4 /* Pods-AvaDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E1C0FB4EFDF5A19792F5754968CA97 /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Example" */;
+			buildPhases = (
+				0B62D2B3E8CE621688FAE26D1A1F5A9F /* Headers */,
+				6EE3C9E67BEAE8A4C70EE9EAD133F4C6 /* Sources */,
+				AAC7951C6822D128E7583F04B3F71380 /* Frameworks */,
+				3334CDB29D243FDC372DB42ADBF1ED8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848D91FE1AB1DEED5CFFD23E4700C805 /* PBXTargetDependency */,
+			);
+			name = "Pods-AvaDemo_Example";
+			productName = "Pods-AvaDemo_Example";
+			productReference = 94F3BC61C4DC157D747E0F931F5232A2 /* Pods_AvaDemo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 799A62748A7A5E0A54816A0147877083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9772630B2260F3028694760A02A2E1A9 /* AvaDemo */,
+				E2D7343351CFA2767B639CBBBE4F4FB4 /* Pods-AvaDemo_Example */,
+				3E5F4978D56B921757AA0A9394499980 /* Pods-AvaDemo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3334CDB29D243FDC372DB42ADBF1ED8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7CBA0A0C1F7BC7BCA1B7420D34FEEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE21358D0ACC37A77A073F4761FD33EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B6AA3EE27C1DB6371FB44F5DE269193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D7C25AD493772FA35ADF223D55209F /* AvaDemo-dummy.m in Sources */,
+				829A4510074043E31093A8AB0E09539E /* AvaLog.m in Sources */,
+				EA079EEBC9BD167BDCBDDC91C821A46B /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE3C9E67BEAE8A4C70EE9EAD133F4C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898E52B2765DA80D171ACBBDC68168C /* Pods-AvaDemo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB48712A970A6311B0AD74CAF6480DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1572FDD22581C5BB392F86545B7AF8DC /* Pods-AvaDemo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FE93D89030E34CE797E67775DB6CF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AvaDemo_Example";
+			target = E2D7343351CFA2767B639CBBBE4F4FB4 /* Pods-AvaDemo_Example */;
+			targetProxy = 2F3E640D3DC67D9D501A01A8998B9306 /* PBXContainerItemProxy */;
+		};
+		848D91FE1AB1DEED5CFFD23E4700C805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvaDemo;
+			target = 9772630B2260F3028694760A02A2E1A9 /* AvaDemo */;
+			targetProxy = C41C17DEDC58FE6F562C405FD2CA5531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CA42A76F8BDA1F14BC39AF42B3F6879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvaDemo/AvaDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvaDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AvaDemo/AvaDemo.modulemap";
+				PRODUCT_MODULE_NAME = AvaDemo;
+				PRODUCT_NAME = AvaDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DB5EA3C4FD386A16C60A17A43963167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B70EBC53C3D5B16E6E6CAC4C9ED02F2 /* Pods-AvaDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F939A812375F9864FF0708BB61A74D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF81549FFEE1CA38CF2BD525A95C3C41 /* Pods-AvaDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		87A26A67E9FB3C90F28ECB938AA9A5A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339E308B1D0166A703B6C7A3711B6148 /* Pods-AvaDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		980348C4624537E12EB00D7CFED61F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F82DB7AC218434F0C5FC193460C368 /* Pods-AvaDemo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC8DB818A3201C2C41DE5FBB5B166311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AvaDemo/AvaDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvaDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AvaDemo/AvaDemo.modulemap";
+				PRODUCT_MODULE_NAME = AvaDemo;
+				PRODUCT_NAME = AvaDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64E2C722A3EAD054D380F489370F012 /* Debug */,
+				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656243E7E12DB9F388C02019A748DF9D /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F939A812375F9864FF0708BB61A74D7 /* Debug */,
+				87A26A67E9FB3C90F28ECB938AA9A5A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC555DDCE4440233EAD31557A11B63F /* Build configuration list for PBXNativeTarget "AvaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8DB818A3201C2C41DE5FBB5B166311 /* Debug */,
+				1CA42A76F8BDA1F14BC39AF42B3F6879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E1C0FB4EFDF5A19792F5754968CA97 /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB5EA3C4FD386A16C60A17A43963167 /* Debug */,
+				980348C4624537E12EB00D7CFED61F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
