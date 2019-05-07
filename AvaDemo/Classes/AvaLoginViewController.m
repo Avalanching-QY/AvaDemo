@@ -7,12 +7,10 @@
 //
 
 #import "AvaLoginViewController.h"
-
-static NSString *reuseIdentifier = @"CellReuseIdentifier";
-
-@interface AvaLoginViewController ()<UITableViewDelegate, UITableViewDataSource>
-
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
+#import "AFNetworking.h"
+@interface AvaLoginViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet UIButton *loginbutton;
 
 @end
 
@@ -20,28 +18,17 @@ static NSString *reuseIdentifier = @"CellReuseIdentifier";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:reuseIdentifier];
+
 }
 
-#pragma mark - UITableViewDataSource
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+- (IBAction)textDidChange:(UITextField *)sender {
+    NSLog(@"your input some char :%@", sender.text);
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier];
-    cell.textLabel.text = [NSString stringWithFormat:@"%@", indexPath];
-    
-    return cell;
+
+- (IBAction)loginAction:(UIButton *)sender {
+    NSLog(@"you did touch login-Button");
 }
 
-#pragma mark - UITableViewDelegate
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-}
 
 @end

@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - AvaDemo (0.2.2):
+  - AvaDemo (0.3.2):
     - AFNetworking
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  AvaDemo: 9875f0bd49b4ce6e478aaeda00ae67b2d13df762
+  AvaDemo: 38fd662b70fce64f5b9539ed6cdff2f23389e595
 
 PODFILE CHECKSUM: db4a08e08ef59449c0bdb4ef4139959887beb6a7
 

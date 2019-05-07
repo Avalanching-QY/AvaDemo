@@ -10,9 +10,7 @@
 #endif
 #endif
 
-#import "AvaLog.h"
 #import "AvaLoginViewController.h"
-#import "AvaLogTest.h"
 
 FOUNDATION_EXPORT double AvaDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char AvaDemoVersionString[];
