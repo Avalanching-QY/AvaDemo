@@ -13,7 +13,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'avanlanching' => '18269285634@163.com' }
   s.source           = { :git => 'https://github.com/avanlanching/AvaDemo.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'AvaDemo/Classes/**/*'
   s.dependency 'AFNetworking'
   s.resource_bundles = {
