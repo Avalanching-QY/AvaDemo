@@ -1,6 +1,6 @@
 {
   "name": "AvaDemo",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "add new xib",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/avanlanching/AvaDemo",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/avanlanching/AvaDemo.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "AvaDemo/Classes/**/*",
   "dependencies": {
