@@ -1,7 +1,7 @@
 {
   "name": "AvaDemo",
-  "version": "0.1.0",
-  "summary": "A short description of AvaDemo.",
+  "version": "0.2.1",
+  "summary": "add new xib",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/avanlanching/AvaDemo",
   "license": {
@@ -13,10 +13,20 @@
   },
   "source": {
     "git": "https://github.com/avanlanching/AvaDemo.git",
-    "tag": "0.1.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AvaDemo/Classes/**/*"
+  "source_files": "AvaDemo/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  },
+  "resource_bundles": {
+    "AvaDemo": [
+      "AvaDemo/Assets/*"
+    ]
+  }
 }

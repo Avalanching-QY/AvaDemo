@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AvaDemo'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AvaDemo.Test demo'
+  s.version          = '0.2.1'
+  s.summary          = 'add new xib'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -14,6 +14,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/avanlanching/AvaDemo.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'AvaDemo/Classes/**/*'
+  s.dependency 'AFNetworking'
+  s.resource_bundles = {
+      'AvaDemo' => ['AvaDemo/Assets/*']
+  }
+
 end

@@ -7,18 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04B2014B5013DA195509E277ECA5B79A /* Pods-AvaDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA1B4587489DD98923A66C54D3258B2 /* Pods-AvaDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1572FDD22581C5BB392F86545B7AF8DC /* Pods-AvaDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 893F9EE068796CEA3555ABEA5335F8D2 /* Pods-AvaDemo_Tests-dummy.m */; };
-		49ECF6811B1386BAFAC23F11F84DECA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		54D7567ADD60EDD14FCED42434C5231B /* AvaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 125AB1F6FBD7C145D4B77B390D55B2F4 /* AvaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5898E52B2765DA80D171ACBBDC68168C /* Pods-AvaDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA26171BB5A950FFE937967D36E0D5 /* Pods-AvaDemo_Example-dummy.m */; };
-		829A4510074043E31093A8AB0E09539E /* AvaLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A84F85067D403D00852B723D23D7A878 /* AvaLog.m */; };
-		87D00228EABEEB4F4A8312A335E797E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A5734B7DC4BCA495681B6FC70A1068C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		E0FBA89818822CBF3E9AE6BA7B7349F1 /* Pods-AvaDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A08F584490B9E6B898D47CCECCFF25 /* Pods-AvaDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA079EEBC9BD167BDCBDDC91C821A46B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8A237FC57CDBE87A0373F0C02A7A4 /* ReplaceMe.m */; };
-		EDC9B5EF48C5B7E01DF10F99D00B6A19 /* AvaLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F618D9DA698DFB298343CB087D21695 /* AvaLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D7C25AD493772FA35ADF223D55209F /* AvaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C994FE607449B28927FCB5164FA399A0 /* AvaDemo-dummy.m */; };
+		04B2014B5013DA195509E277ECA5B79A /* Pods-AvaDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C79B7FDF1B9C2F8A3E12F34924E932 /* Pods-AvaDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B419E0EE449BE13B1805D2AEA6F3E2D4 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF6F30931BD32517932E6D9B06669EC /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D1EC68F6C117C3A81BB8F5605C317F /* AvaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 579B56E8DB3C42FB5DAB038E737199EF /* AvaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BDF6F9B5BC40DF82488FDE1C1699E7 /* SystemConfiguration.framework */; };
+		1572FDD22581C5BB392F86545B7AF8DC /* Pods-AvaDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F233E235D02E0A720381F99A73CFA5 /* Pods-AvaDemo_Tests-dummy.m */; };
+		19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D10A6F04C10D110A25EEF951B4090C75 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA98173D51A44A0B7665172C1F5E8EDF /* CoreGraphics.framework */; };
+		1EBF2AB002C8172D67DD5088CE5138F5 /* AvaLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D6C23576951B193FDC740C963DDF7C /* AvaLog.m */; };
+		33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFA2659FC5AC408DC46BD90CE043F39 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46868644BD8311D8AAF9EAF6A39A6040 /* AFNetworkActivityIndicatorManager.m */; };
+		3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */; };
+		444700BA998347670FEEFAF9117FB9BD /* AvaLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA8EA0A3C19F828E5043269E85EAF74 /* AvaLoginViewController.xib */; };
+		459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1511215FF17F3FCC3AB8072C1933A4BE /* AFURLResponseSerialization.m */; };
+		49ECF6811B1386BAFAC23F11F84DECA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
+		4BE7ED07CA93A8DEF8D1804767ABF82B /* AvaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BE0A74370E054F65254CA92729A40B /* AvaDemo-dummy.m */; };
+		4C59A2E96785A6CA97FA8079668D3032 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7C757A7B333B441A54F6F5CAF2985 /* AFNetworking.framework */; };
+		545679B88F26F899733D80C02B77697C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8742FD2C55D275D42D435964AF4E69 /* ReplaceMe.m */; };
+		567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 16955B1D156A796CE92B08F0BB192DFE /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC41104439157C2FBFF8795BBDDE686 /* Pods-AvaDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3F3114F58465CB7512A39C71E4BAE1 /* Pods-AvaDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5E70665CCE8779437E8363CE137E9F /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2DD46E50F1D90AE09228E3374E83D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660A586C5C9C08A4356B2B518EA0D425 /* Pods-AvaDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB822EAE6CAF1A583198238F9437C15 /* Pods-AvaDemo_Example-dummy.m */; };
+		66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030CC492223F1416E41E4B378BC705C /* AFImageDownloader.m */; };
+		6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4E5A1CFF36B7CDABDDC3E16DE830F3 /* UIButton+AFNetworking.m */; };
+		72640694643BFE80EFDAB0EA997C1C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
+		7701B16056DABBD9DBAAE76E1EBEE5A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
+		775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A92CCC319FAC593C8D2C465BF34B2A9E /* AFHTTPSessionManager.m */; };
+		7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A5EE880F62F741E54499123AA561E9 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E92C6D604A27E39FFFB8139A26ECE15 /* AvaLogTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 753760D2EED7C4ED36B01FF6B2CA6D0C /* AvaLogTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F341ADECD581C4D39B2AE3A9BE801 /* UIRefreshControl+AFNetworking.m */; };
+		87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20316E6CE344404C62DBCEFFFA1E5833 /* AFSecurityPolicy.m */; };
+		891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A18BE14DF2681C57D71B983AB8E9968 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B949B5E9BCA670F4D4B88D4B0193DDD2 /* AFURLSessionManager.m */; };
+		8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 610C73F7F888F3A873BC5141706E89E8 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9748C6B6CF601FAD2D83D2FBC3C2AA /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F865F1984690D7E4D82CE8BC440C9C4 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ABF2603A38B045A51FA073761F6D74 /* UIActivityIndicatorView+AFNetworking.m */; };
+		9E84EBF0C6783B8EC9690C93DEFEEE26 /* AvaLogTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F94A9263690F69290216398106A029 /* AvaLogTest.m */; };
+		A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
+		A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A01F3E12F6C5EE71FEC7011CC1C1C49 /* Security.framework */; };
+		A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA824FACBBA5BE51DDD2ABB499950E6 /* UIImageView+AFNetworking.m */; };
+		B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8FA6658732BEA1D9E3D3F30406B5A1 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A24A1E9894FABC7EF1268BAF9BD4222 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDF085A40F2E60A3A23F8AD8CFE2AF65 /* AvaLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B162CDF142419BFE2C452CB69BD41D /* AvaLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9D56E95262943326DB4772EC8677EC /* MobileCoreServices.framework */; };
+		C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690E5F504CD85C5DE34D3B449B27958B /* AFNetworking-dummy.m */; };
+		C7DD9E4247777EA6C04BF961FFC3978C /* AvaLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 938223755C35C2F5F25643FDD4743BC5 /* AvaLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5658450B390498551F491488B4C1BF0C /* UIWebView+AFNetworking.m */; };
+		D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B79EE2394EF977D4D976CDBB499F1E36 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D35DF96F93BD96B4165D6EFCB9273DF9 /* AvaLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18309894457F0AE418E813EDDB04B222 /* AvaLoginViewController.m */; };
+		D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 201D2B014FFDE009C7407F091A3BC2E4 /* AFAutoPurgingImageCache.m */; };
+		DD373E5B456ADE60DE4DB4B2BAB0B576 /* AvaDemo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9177A8239B648A935E7DA2D9B5A154B /* AvaDemo.bundle */; };
+		E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DCDB3BCF16CB2882EA92BE68EDBE94 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 399361DB0160269CF9B87E7572F8E994 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 880F50998A0758C563E6D504CD6E517B /* AFNetworkReachabilityManager.m */; };
+		F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B9545A1A302F25073E89E81566001171 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D54FD36EF6CCAD55ABE35770B95F36 /* AFURLRequestSerialization.m */; };
+		FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F15545BBA641239D71E877B104995B89 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,64 +74,144 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2D7343351CFA2767B639CBBBE4F4FB4;
+			remoteGlobalIDString = C66AB619A95EE5E7FB55F49404E16B60;
 			remoteInfo = "Pods-AvaDemo_Example";
 		};
-		C41C17DEDC58FE6F562C405FD2CA5531 /* PBXContainerItemProxy */ = {
+		7040B841C3547A21C6BF577554F32103 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9772630B2260F3028694760A02A2E1A9;
+			remoteGlobalIDString = 70037E8EC5C7BEC953B37A531F9D22BC;
 			remoteInfo = AvaDemo;
+		};
+		89313C60AFFAB6CFC804CB5DE64C44AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
+			remoteInfo = AFNetworking;
+		};
+		A1B262428E0163940994981B8F3D1EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
+			remoteInfo = AFNetworking;
+		};
+		EB6CDD5749707B15E5E7B51D35EC02D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C743CC7DDE45F6A7062D5C9D846E56C;
+			remoteInfo = "AvaDemo-AvaDemo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvaDemo.xcconfig; sourceTree = "<group>"; };
-		11999D6F3B3E6B6CB63EA6DDED3E040A /* Pods-AvaDemo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Tests-resources.sh"; sourceTree = "<group>"; };
-		125AB1F6FBD7C145D4B77B390D55B2F4 /* AvaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvaDemo-umbrella.h"; sourceTree = "<group>"; };
-		1BDFD9054761D91FEFDB83D3642AAF23 /* Pods-AvaDemo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Example-resources.sh"; sourceTree = "<group>"; };
-		238708A4F31B2DDCD986C21926C92137 /* Pods-AvaDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2B70EBC53C3D5B16E6E6CAC4C9ED02F2 /* Pods-AvaDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		339E308B1D0166A703B6C7A3711B6148 /* Pods-AvaDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		52A08F584490B9E6B898D47CCECCFF25 /* Pods-AvaDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaDemo_Example-umbrella.h"; sourceTree = "<group>"; };
-		531CDF682F052F2F136AB61D03A9904F /* Pods-AvaDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		55A5544802B1C951FA826FAA297D63D0 /* Pods_AvaDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaDemo_Tests.framework; path = "Pods-AvaDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56FA33336A4A785863FDAFA8F421C00C /* Pods-AvaDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvaDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		56FAF5379AB1115D2288180A674708FD /* AvaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvaDemo.modulemap; sourceTree = "<group>"; };
-		5FC93E98C61A8F07AB827CDEA31D364B /* Pods-AvaDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6642E5335C2D90C654A850E18CADBA4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72606AE6DBA6E2BA137DCD3C09E112FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		740800AEAD7ADE30FADED90BEE1AABC5 /* Pods-AvaDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E1363BCFC3FD31AD679DAFB6894EC27 /* AvaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvaDemo.framework; path = AvaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		893F9EE068796CEA3555ABEA5335F8D2 /* Pods-AvaDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaDemo_Tests-dummy.m"; sourceTree = "<group>"; };
-		94F3BC61C4DC157D747E0F931F5232A2 /* Pods_AvaDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaDemo_Example.framework; path = "Pods-AvaDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F618D9DA698DFB298343CB087D21695 /* AvaLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvaLog.h; path = AvaDemo/Classes/AvaLog.h; sourceTree = "<group>"; };
-		9F8FD41EAF8426D57BB09173475763FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A381E3E59DFD24F4D88FBF03569DCE66 /* Pods-AvaDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvaDemo_Example.modulemap"; sourceTree = "<group>"; };
-		A84F85067D403D00852B723D23D7A878 /* AvaLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvaLog.m; path = AvaDemo/Classes/AvaLog.m; sourceTree = "<group>"; };
-		BBCFF300735CF7C48A8B0A51519BC72D /* Pods-AvaDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C08B026CA9086233BEE9FC59D2A2BC92 /* AvaDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvaDemo-prefix.pch"; sourceTree = "<group>"; };
-		C12AAAE0B1B4D60E496910A7C4C2CEC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C994FE607449B28927FCB5164FA399A0 /* AvaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvaDemo-dummy.m"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D54A12F419DD16199E2D6E176C93CE06 /* Pods-AvaDemo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DD204DD1E15C83EFEE21398A71056403 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DDCA26171BB5A950FFE937967D36E0D5 /* Pods-AvaDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaDemo_Example-dummy.m"; sourceTree = "<group>"; };
-		E2F82DB7AC218434F0C5FC193460C368 /* Pods-AvaDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E7D8A237FC57CDBE87A0373F0C02A7A4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AvaDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		EFA1B4587489DD98923A66C54D3258B2 /* Pods-AvaDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FF81549FFEE1CA38CF2BD525A95C3C41 /* Pods-AvaDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FFB8C82922472E445163EE2F5A63E6C7 /* AvaDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AvaDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0030CC492223F1416E41E4B378BC705C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		05D54FD36EF6CCAD55ABE35770B95F36 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		07E6B76928821B7F2FDBF3849287CDA6 /* Pods_AvaDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaDemo_Tests.framework; path = "Pods-AvaDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A01F3E12F6C5EE71FEC7011CC1C1C49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0AE85274C971238E7FDD19CFF7045B75 /* AvaDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvaDemo-prefix.pch"; sourceTree = "<group>"; };
+		146D41B4678F52CB35B2B1950B74773E /* AvaDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AvaDemo-Info.plist"; sourceTree = "<group>"; };
+		1511215FF17F3FCC3AB8072C1933A4BE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		16955B1D156A796CE92B08F0BB192DFE /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		18309894457F0AE418E813EDDB04B222 /* AvaLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvaLoginViewController.m; path = AvaDemo/Classes/AvaLoginViewController.m; sourceTree = "<group>"; };
+		18A5EE880F62F741E54499123AA561E9 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		1B89D4DA24E30DDACCCE0F9973F98973 /* AvaDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AvaDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		201D2B014FFDE009C7407F091A3BC2E4 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		20316E6CE344404C62DBCEFFFA1E5833 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		24B011BDEDAAD08BF73349CE8CDE20E1 /* Pods-AvaDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Tests-Info.plist"; sourceTree = "<group>"; };
+		26F7C757A7B333B441A54F6F5CAF2985 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		2F34B96BE22209A7A781E6CBF8E2F8DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		322F1A8086BC5D6B4C1BAC622FEB08AA /* Pods-AvaDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		399361DB0160269CF9B87E7572F8E994 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		3A3F341ADECD581C4D39B2AE3A9BE801 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		3AA8EA0A3C19F828E5043269E85EAF74 /* AvaLoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AvaLoginViewController.xib; path = AvaDemo/Assets/AvaLoginViewController.xib; sourceTree = "<group>"; };
+		409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		44F94A9263690F69290216398106A029 /* AvaLogTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvaLogTest.m; path = AvaDemo/Classes/AvaLogTest.m; sourceTree = "<group>"; };
+		464C9DE931643FA4CFAF70DF11B979D7 /* AvaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AvaDemo.modulemap; sourceTree = "<group>"; };
+		46868644BD8311D8AAF9EAF6A39A6040 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		492D7893F7D61D16D1DF4EACB3CD1697 /* Pods-AvaDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvaDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4CF457C60F6777B5255B7054F09D4A2E /* AvaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AvaDemo.framework; path = AvaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAC41BB1ED8AB9BB9474FFD2F4E0DED /* Pods-AvaDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvaDemo_Example.modulemap"; sourceTree = "<group>"; };
+		4F12A187731714FA1E67147633801099 /* Pods-AvaDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AvaDemo_Tests.modulemap"; sourceTree = "<group>"; };
+		51F233E235D02E0A720381F99A73CFA5 /* Pods-AvaDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		54906C94E183652D0D0CC4F4AEE4371F /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5658450B390498551F491488B4C1BF0C /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		579B56E8DB3C42FB5DAB038E737199EF /* AvaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AvaDemo-umbrella.h"; sourceTree = "<group>"; };
+		582FF3862211F29857FACC1C120EA41F /* Pods-AvaDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A8FA6658732BEA1D9E3D3F30406B5A1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5AB822EAE6CAF1A583198238F9437C15 /* Pods-AvaDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvaDemo_Example-dummy.m"; sourceTree = "<group>"; };
+		5F865F1984690D7E4D82CE8BC440C9C4 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		610C73F7F888F3A873BC5141706E89E8 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		690E5F504CD85C5DE34D3B449B27958B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		6F0086000309D732F72B6069060A397E /* Pods_AvaDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvaDemo_Example.framework; path = "Pods-AvaDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		753760D2EED7C4ED36B01FF6B2CA6D0C /* AvaLogTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvaLogTest.h; path = AvaDemo/Classes/AvaLogTest.h; sourceTree = "<group>"; };
+		79DCDB3BCF16CB2882EA92BE68EDBE94 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		7A9D56E95262943326DB4772EC8677EC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		7B0743F711DA4A9D947A7BB1EF5E388B /* Pods-AvaDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA824FACBBA5BE51DDD2ABB499950E6 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		7F5E70665CCE8779437E8363CE137E9F /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		82FDF394D813CE702BAB2CC1E3A3DAC0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		880F50998A0758C563E6D504CD6E517B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		89BDF6F9B5BC40DF82488FDE1C1699E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8A18BE14DF2681C57D71B983AB8E9968 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		8A24A1E9894FABC7EF1268BAF9BD4222 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		8ACFB69FBF6DC07129CF2868A6B7CAFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8BF6F30931BD32517932E6D9B06669EC /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		8DA9A1CC8D8C61DC67B711CE1B1593F1 /* AvaDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AvaDemo.xcconfig; sourceTree = "<group>"; };
+		8FED1511ED96376AE5F37849CA8331EC /* Pods-AvaDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		92C79B7FDF1B9C2F8A3E12F34924E932 /* Pods-AvaDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		938223755C35C2F5F25643FDD4743BC5 /* AvaLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvaLog.h; path = AvaDemo/Classes/AvaLog.h; sourceTree = "<group>"; };
+		96BE0A74370E054F65254CA92729A40B /* AvaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AvaDemo-dummy.m"; sourceTree = "<group>"; };
+		99972FC44580B2C8B48D9DA7A8A3DC0B /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A92CCC319FAC593C8D2C465BF34B2A9E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A9B162CDF142419BFE2C452CB69BD41D /* AvaLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AvaLoginViewController.h; path = AvaDemo/Classes/AvaLoginViewController.h; sourceTree = "<group>"; };
+		AA98173D51A44A0B7665172C1F5E8EDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AF3F3114F58465CB7512A39C71E4BAE1 /* Pods-AvaDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvaDemo_Example-umbrella.h"; sourceTree = "<group>"; };
+		B419E0EE449BE13B1805D2AEA6F3E2D4 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		B79EE2394EF977D4D976CDBB499F1E36 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		B949B5E9BCA670F4D4B88D4B0193DDD2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		B9545A1A302F25073E89E81566001171 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C0815B02F9117D232D1A2846E286A11F /* Pods-AvaDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0ABF2603A38B045A51FA073761F6D74 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		C0D6C23576951B193FDC740C963DDF7C /* AvaLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AvaLog.m; path = AvaDemo/Classes/AvaLog.m; sourceTree = "<group>"; };
+		C36C08E9E6863A320500B0C6DA25848F /* Pods-AvaDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvaDemo_Example-Info.plist"; sourceTree = "<group>"; };
+		CD4B170BB6F5DCF4D4A51AF6720091EA /* Pods-AvaDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFFA2659FC5AC408DC46BD90CE043F39 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		D10A6F04C10D110A25EEF951B4090C75 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D195C94F13A4B6C342749ECE7B95F9CE /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		D1F7E93F0746DC0669F64854AEE5B630 /* ResourceBundle-AvaDemo-AvaDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AvaDemo-AvaDemo-Info.plist"; sourceTree = "<group>"; };
+		D9177A8239B648A935E7DA2D9B5A154B /* AvaDemo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AvaDemo.bundle; path = "AvaDemo-AvaDemo.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9748C6B6CF601FAD2D83D2FBC3C2AA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		DF8742FD2C55D275D42D435964AF4E69 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AvaDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E67E93136B526654CBBE22FA68F602E2 /* Pods-AvaDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvaDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EB4E5A1CFF36B7CDABDDC3E16DE830F3 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		F15545BBA641239D71E877B104995B89 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		F4B2DD46E50F1D90AE09228E3374E83D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		FB6D3AF417C3C07EF427F8E3C4D721EC /* Pods-AvaDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvaDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AAC7951C6822D128E7583F04B3F71380 /* Frameworks */ = {
+		1E6814B81933EAE480D63EA5E1864B98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5734B7DC4BCA495681B6FC70A1068C7 /* Foundation.framework in Frameworks */,
+				7701B16056DABBD9DBAAE76E1EBEE5A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF66536480C0B3D932DF46A168624B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C59A2E96785A6CA97FA8079668D3032 /* AFNetworking.framework in Frameworks */,
+				72640694643BFE80EFDAB0EA997C1C0D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,94 +223,252 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE0FE06CA8D266F92AE4218B2A56E24F /* Frameworks */ = {
+		EF425836A6EB076B963213A7752FD37F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D00228EABEEB4F4A8312A335E797E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */,
+				A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */,
+				C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */,
+				A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */,
+				0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		25A96653A23A5B765DD5AAE43DCAA0DE /* Development Pods */ = {
+		05003143150A16BDF156F4FBD68C747E /* Pods-AvaDemo_Example */ = {
 			isa = PBXGroup;
 			children = (
-				421B5AA2DD3BF93ADA7D203975ACFB4F /* AvaDemo */,
+				4EAC41BB1ED8AB9BB9474FFD2F4E0DED /* Pods-AvaDemo_Example.modulemap */,
+				FB6D3AF417C3C07EF427F8E3C4D721EC /* Pods-AvaDemo_Example-acknowledgements.markdown */,
+				322F1A8086BC5D6B4C1BAC622FEB08AA /* Pods-AvaDemo_Example-acknowledgements.plist */,
+				5AB822EAE6CAF1A583198238F9437C15 /* Pods-AvaDemo_Example-dummy.m */,
+				492D7893F7D61D16D1DF4EACB3CD1697 /* Pods-AvaDemo_Example-frameworks.sh */,
+				C36C08E9E6863A320500B0C6DA25848F /* Pods-AvaDemo_Example-Info.plist */,
+				AF3F3114F58465CB7512A39C71E4BAE1 /* Pods-AvaDemo_Example-umbrella.h */,
+				8FED1511ED96376AE5F37849CA8331EC /* Pods-AvaDemo_Example.debug.xcconfig */,
+				E67E93136B526654CBBE22FA68F602E2 /* Pods-AvaDemo_Example.release.xcconfig */,
+			);
+			name = "Pods-AvaDemo_Example";
+			path = "Target Support Files/Pods-AvaDemo_Example";
+			sourceTree = "<group>";
+		};
+		3573AA859D4739C6DDFA66B79BFD7F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54906C94E183652D0D0CC4F4AEE4371F /* AFNetworking.framework */,
+				D9177A8239B648A935E7DA2D9B5A154B /* AvaDemo.bundle */,
+				4CF457C60F6777B5255B7054F09D4A2E /* AvaDemo.framework */,
+				6F0086000309D732F72B6069060A397E /* Pods_AvaDemo_Example.framework */,
+				07E6B76928821B7F2FDBF3849287CDA6 /* Pods_AvaDemo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB15477F5B792FD46EF0B2107FB6DD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AA8EA0A3C19F828E5043269E85EAF74 /* AvaLoginViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41AA6DD29CE4B7A87ED35630D132DEE7 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				8A18BE14DF2681C57D71B983AB8E9968 /* AFSecurityPolicy.h */,
+				20316E6CE344404C62DBCEFFFA1E5833 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		4C38082DADD8203A4D290044D37BE4C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F7C757A7B333B441A54F6F5CAF2985 /* AFNetworking.framework */,
+				7654EC3BB69252FF85E1F432DC788B04 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F985147C269360498F4D666C3586F1 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				B419E0EE449BE13B1805D2AEA6F3E2D4 /* AFCompatibilityMacros.h */,
+				DC9748C6B6CF601FAD2D83D2FBC3C2AA /* AFHTTPSessionManager.h */,
+				A92CCC319FAC593C8D2C465BF34B2A9E /* AFHTTPSessionManager.m */,
+				B79EE2394EF977D4D976CDBB499F1E36 /* AFURLSessionManager.h */,
+				B949B5E9BCA670F4D4B88D4B0193DDD2 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		6A30E278815258D07F349F83469F873D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D6B625299D90BF482EA697924C233D7 /* AvaDemo */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		421B5AA2DD3BF93ADA7D203975ACFB4F /* AvaDemo */ = {
+		6B67C1C532D80DBF4D5966599EEE5BD1 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				9F618D9DA698DFB298343CB087D21695 /* AvaLog.h */,
-				A84F85067D403D00852B723D23D7A878 /* AvaLog.m */,
-				E7D8A237FC57CDBE87A0373F0C02A7A4 /* ReplaceMe.m */,
-				C4989DDE1882D63F831E09495C370A30 /* Pod */,
-				B38C676D87910617604C5B0B67FD9DFF /* Support Files */,
+				5A8FA6658732BEA1D9E3D3F30406B5A1 /* AFNetworkReachabilityManager.h */,
+				880F50998A0758C563E6D504CD6E517B /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		6D6B625299D90BF482EA697924C233D7 /* AvaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				938223755C35C2F5F25643FDD4743BC5 /* AvaLog.h */,
+				C0D6C23576951B193FDC740C963DDF7C /* AvaLog.m */,
+				A9B162CDF142419BFE2C452CB69BD41D /* AvaLoginViewController.h */,
+				18309894457F0AE418E813EDDB04B222 /* AvaLoginViewController.m */,
+				753760D2EED7C4ED36B01FF6B2CA6D0C /* AvaLogTest.h */,
+				44F94A9263690F69290216398106A029 /* AvaLogTest.m */,
+				DF8742FD2C55D275D42D435964AF4E69 /* ReplaceMe.m */,
+				CC6C238ED67999107D5AC6B88462B7C9 /* Pod */,
+				3DB15477F5B792FD46EF0B2107FB6DD1 /* Resources */,
+				94F5DE90ECBC634505928563B395F5D0 /* Support Files */,
 			);
 			name = AvaDemo;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		799A62748A7A5E0A54816A0147877083 /* Products */ = {
+		758D3A0B9C8B83A952B0CA0717B9A068 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E1363BCFC3FD31AD679DAFB6894EC27 /* AvaDemo.framework */,
-				94F3BC61C4DC157D747E0F931F5232A2 /* Pods_AvaDemo_Example.framework */,
-				55A5544802B1C951FA826FAA297D63D0 /* Pods_AvaDemo_Tests.framework */,
+				99972FC44580B2C8B48D9DA7A8A3DC0B /* AFNetworking.modulemap */,
+				170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */,
+				690E5F504CD85C5DE34D3B449B27958B /* AFNetworking-dummy.m */,
+				D195C94F13A4B6C342749ECE7B95F9CE /* AFNetworking-Info.plist */,
+				82FDF394D813CE702BAB2CC1E3A3DAC0 /* AFNetworking-prefix.pch */,
+				610C73F7F888F3A873BC5141706E89E8 /* AFNetworking-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		82D179B6A9B7C5C0513EFDA5A2E2AD7B /* Pods-AvaDemo_Tests */ = {
+		7654EC3BB69252FF85E1F432DC788B04 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD204DD1E15C83EFEE21398A71056403 /* Info.plist */,
-				56FA33336A4A785863FDAFA8F421C00C /* Pods-AvaDemo_Tests.modulemap */,
-				238708A4F31B2DDCD986C21926C92137 /* Pods-AvaDemo_Tests-acknowledgements.markdown */,
-				5FC93E98C61A8F07AB827CDEA31D364B /* Pods-AvaDemo_Tests-acknowledgements.plist */,
-				893F9EE068796CEA3555ABEA5335F8D2 /* Pods-AvaDemo_Tests-dummy.m */,
-				D54A12F419DD16199E2D6E176C93CE06 /* Pods-AvaDemo_Tests-frameworks.sh */,
-				11999D6F3B3E6B6CB63EA6DDED3E040A /* Pods-AvaDemo_Tests-resources.sh */,
-				EFA1B4587489DD98923A66C54D3258B2 /* Pods-AvaDemo_Tests-umbrella.h */,
-				FF81549FFEE1CA38CF2BD525A95C3C41 /* Pods-AvaDemo_Tests.debug.xcconfig */,
-				339E308B1D0166A703B6C7A3711B6148 /* Pods-AvaDemo_Tests.release.xcconfig */,
-			);
-			name = "Pods-AvaDemo_Tests";
-			path = "Target Support Files/Pods-AvaDemo_Tests";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				AA98173D51A44A0B7665172C1F5E8EDF /* CoreGraphics.framework */,
+				FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */,
+				7A9D56E95262943326DB4772EC8677EC /* MobileCoreServices.framework */,
+				0A01F3E12F6C5EE71FEC7011CC1C1C49 /* Security.framework */,
+				89BDF6F9B5BC40DF82488FDE1C1699E7 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B38C676D87910617604C5B0B67FD9DFF /* Support Files */ = {
+		8C9453163FB2263809D29559161C274E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56FAF5379AB1115D2288180A674708FD /* AvaDemo.modulemap */,
-				0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */,
-				C994FE607449B28927FCB5164FA399A0 /* AvaDemo-dummy.m */,
-				C08B026CA9086233BEE9FC59D2A2BC92 /* AvaDemo-prefix.pch */,
-				125AB1F6FBD7C145D4B77B390D55B2F4 /* AvaDemo-umbrella.h */,
-				9F8FD41EAF8426D57BB09173475763FA /* Info.plist */,
+				05003143150A16BDF156F4FBD68C747E /* Pods-AvaDemo_Example */,
+				B712222A5CE63396C5DE7EB6E44A9EF1 /* Pods-AvaDemo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F4BA6D212CCBA22F9E46E2C52D86F9C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5F865F1984690D7E4D82CE8BC440C9C4 /* AFNetworking.h */,
+				51F985147C269360498F4D666C3586F1 /* NSURLSession */,
+				6B67C1C532D80DBF4D5966599EEE5BD1 /* Reachability */,
+				41AA6DD29CE4B7A87ED35630D132DEE7 /* Security */,
+				DEFF23A4262B7CC2B7412DB37FDD1D50 /* Serialization */,
+				758D3A0B9C8B83A952B0CA0717B9A068 /* Support Files */,
+				AA46B506BA633AF58C06347FAA379101 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		94F5DE90ECBC634505928563B395F5D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				464C9DE931643FA4CFAF70DF11B979D7 /* AvaDemo.modulemap */,
+				8DA9A1CC8D8C61DC67B711CE1B1593F1 /* AvaDemo.xcconfig */,
+				96BE0A74370E054F65254CA92729A40B /* AvaDemo-dummy.m */,
+				146D41B4678F52CB35B2B1950B74773E /* AvaDemo-Info.plist */,
+				0AE85274C971238E7FDD19CFF7045B75 /* AvaDemo-prefix.pch */,
+				579B56E8DB3C42FB5DAB038E737199EF /* AvaDemo-umbrella.h */,
+				D1F7E93F0746DC0669F64854AEE5B630 /* ResourceBundle-AvaDemo-AvaDemo-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AvaDemo";
 			sourceTree = "<group>";
 		};
-		C4989DDE1882D63F831E09495C370A30 /* Pod */ = {
+		AA46B506BA633AF58C06347FAA379101 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				FFB8C82922472E445163EE2F5A63E6C7 /* AvaDemo.podspec */,
-				C12AAAE0B1B4D60E496910A7C4C2CEC3 /* LICENSE */,
-				72606AE6DBA6E2BA137DCD3C09E112FC /* README.md */,
+				7F5E70665CCE8779437E8363CE137E9F /* AFAutoPurgingImageCache.h */,
+				201D2B014FFDE009C7407F091A3BC2E4 /* AFAutoPurgingImageCache.m */,
+				8BF6F30931BD32517932E6D9B06669EC /* AFImageDownloader.h */,
+				0030CC492223F1416E41E4B378BC705C /* AFImageDownloader.m */,
+				79DCDB3BCF16CB2882EA92BE68EDBE94 /* AFNetworkActivityIndicatorManager.h */,
+				46868644BD8311D8AAF9EAF6A39A6040 /* AFNetworkActivityIndicatorManager.m */,
+				2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */,
+				C0ABF2603A38B045A51FA073761F6D74 /* UIActivityIndicatorView+AFNetworking.m */,
+				399361DB0160269CF9B87E7572F8E994 /* UIButton+AFNetworking.h */,
+				EB4E5A1CFF36B7CDABDDC3E16DE830F3 /* UIButton+AFNetworking.m */,
+				CFFA2659FC5AC408DC46BD90CE043F39 /* UIImage+AFNetworking.h */,
+				16955B1D156A796CE92B08F0BB192DFE /* UIImageView+AFNetworking.h */,
+				7CA824FACBBA5BE51DDD2ABB499950E6 /* UIImageView+AFNetworking.m */,
+				F4B2DD46E50F1D90AE09228E3374E83D /* UIKit+AFNetworking.h */,
+				8A24A1E9894FABC7EF1268BAF9BD4222 /* UIProgressView+AFNetworking.h */,
+				409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */,
+				F15545BBA641239D71E877B104995B89 /* UIRefreshControl+AFNetworking.h */,
+				3A3F341ADECD581C4D39B2AE3A9BE801 /* UIRefreshControl+AFNetworking.m */,
+				18A5EE880F62F741E54499123AA561E9 /* UIWebView+AFNetworking.h */,
+				5658450B390498551F491488B4C1BF0C /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		B580EA7CF70EB35BD42257A17D958932 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F4BA6D212CCBA22F9E46E2C52D86F9C /* AFNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B712222A5CE63396C5DE7EB6E44A9EF1 /* Pods-AvaDemo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4F12A187731714FA1E67147633801099 /* Pods-AvaDemo_Tests.modulemap */,
+				CD4B170BB6F5DCF4D4A51AF6720091EA /* Pods-AvaDemo_Tests-acknowledgements.markdown */,
+				C0815B02F9117D232D1A2846E286A11F /* Pods-AvaDemo_Tests-acknowledgements.plist */,
+				51F233E235D02E0A720381F99A73CFA5 /* Pods-AvaDemo_Tests-dummy.m */,
+				24B011BDEDAAD08BF73349CE8CDE20E1 /* Pods-AvaDemo_Tests-Info.plist */,
+				92C79B7FDF1B9C2F8A3E12F34924E932 /* Pods-AvaDemo_Tests-umbrella.h */,
+				7B0743F711DA4A9D947A7BB1EF5E388B /* Pods-AvaDemo_Tests.debug.xcconfig */,
+				582FF3862211F29857FACC1C120EA41F /* Pods-AvaDemo_Tests.release.xcconfig */,
+			);
+			name = "Pods-AvaDemo_Tests";
+			path = "Target Support Files/Pods-AvaDemo_Tests";
+			sourceTree = "<group>";
+		};
+		CC6C238ED67999107D5AC6B88462B7C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1B89D4DA24E30DDACCCE0F9973F98973 /* AvaDemo.podspec */,
+				8ACFB69FBF6DC07129CF2868A6B7CAFE /* LICENSE */,
+				2F34B96BE22209A7A781E6CBF8E2F8DC /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -190,57 +476,72 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				25A96653A23A5B765DD5AAE43DCAA0DE /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				799A62748A7A5E0A54816A0147877083 /* Products */,
-				D5A8AE5FFAE8DD4B864C9246FFF91F5F /* Targets Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6A30E278815258D07F349F83469F873D /* Development Pods */,
+				4C38082DADD8203A4D290044D37BE4C0 /* Frameworks */,
+				B580EA7CF70EB35BD42257A17D958932 /* Pods */,
+				3573AA859D4739C6DDFA66B79BFD7F55 /* Products */,
+				8C9453163FB2263809D29559161C274E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DEFF23A4262B7CC2B7412DB37FDD1D50 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				B9545A1A302F25073E89E81566001171 /* AFURLRequestSerialization.h */,
+				05D54FD36EF6CCAD55ABE35770B95F36 /* AFURLRequestSerialization.m */,
+				D10A6F04C10D110A25EEF951B4090C75 /* AFURLResponseSerialization.h */,
+				1511215FF17F3FCC3AB8072C1933A4BE /* AFURLResponseSerialization.m */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D5A8AE5FFAE8DD4B864C9246FFF91F5F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF547BD04058D5227AC8FA75C8BB70A1 /* Pods-AvaDemo_Example */,
-				82D179B6A9B7C5C0513EFDA5A2E2AD7B /* Pods-AvaDemo_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		DF547BD04058D5227AC8FA75C8BB70A1 /* Pods-AvaDemo_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6642E5335C2D90C654A850E18CADBA4E /* Info.plist */,
-				A381E3E59DFD24F4D88FBF03569DCE66 /* Pods-AvaDemo_Example.modulemap */,
-				740800AEAD7ADE30FADED90BEE1AABC5 /* Pods-AvaDemo_Example-acknowledgements.markdown */,
-				BBCFF300735CF7C48A8B0A51519BC72D /* Pods-AvaDemo_Example-acknowledgements.plist */,
-				DDCA26171BB5A950FFE937967D36E0D5 /* Pods-AvaDemo_Example-dummy.m */,
-				531CDF682F052F2F136AB61D03A9904F /* Pods-AvaDemo_Example-frameworks.sh */,
-				1BDFD9054761D91FEFDB83D3642AAF23 /* Pods-AvaDemo_Example-resources.sh */,
-				52A08F584490B9E6B898D47CCECCFF25 /* Pods-AvaDemo_Example-umbrella.h */,
-				2B70EBC53C3D5B16E6E6CAC4C9ED02F2 /* Pods-AvaDemo_Example.debug.xcconfig */,
-				E2F82DB7AC218434F0C5FC193460C368 /* Pods-AvaDemo_Example.release.xcconfig */,
-			);
-			name = "Pods-AvaDemo_Example";
-			path = "Target Support Files/Pods-AvaDemo_Example";
+			name = Serialization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B62D2B3E8CE621688FAE26D1A1F5A9F /* Headers */ = {
+		5C41D463783A6E2309131269B1B51EA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0FBA89818822CBF3E9AE6BA7B7349F1 /* Pods-AvaDemo_Example-umbrella.h in Headers */,
+				09D1EC68F6C117C3A81BB8F5605C317F /* AvaDemo-umbrella.h in Headers */,
+				C7DD9E4247777EA6C04BF961FFC3978C /* AvaLog.h in Headers */,
+				BDF085A40F2E60A3A23F8AD8CFE2AF65 /* AvaLoginViewController.h in Headers */,
+				7E92C6D604A27E39FFFB8139A26ECE15 /* AvaLogTest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		835D631C3E2AF8213135CFE594332CC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC41104439157C2FBFF8795BBDDE686 /* Pods-AvaDemo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B481F7D9424640B11DFD07C65E61B86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */,
+				076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */,
+				9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */,
+				077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */,
+				E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */,
+				9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */,
+				B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */,
+				891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */,
+				F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */,
+				19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */,
+				D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */,
+				1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */,
+				33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */,
+				567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */,
+				63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */,
+				B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */,
+				FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */,
+				7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,18 +553,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F558E3675D6740D8EEE0EEB80D16EBEC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54D7567ADD60EDD14FCED42434C5231B /* AvaDemo-umbrella.h in Headers */,
-				EDC9B5EF48C5B7E01DF10F99D00B6A19 /* AvaLog.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3C743CC7DDE45F6A7062D5C9D846E56C /* AvaDemo-AvaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795EBAD48AC35CABBC8AACE9D78D77AA /* Build configuration list for PBXNativeTarget "AvaDemo-AvaDemo" */;
+			buildPhases = (
+				92F2F5EC28EC348CCF55D4844D54F5F3 /* Sources */,
+				EF425836A6EB076B963213A7752FD37F /* Frameworks */,
+				DC13C7CE35340B9E003D8055C8990D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AvaDemo-AvaDemo";
+			productName = "AvaDemo-AvaDemo";
+			productReference = D9177A8239B648A935E7DA2D9B5A154B /* AvaDemo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		3E5F4978D56B921757AA0A9394499980 /* Pods-AvaDemo_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 656243E7E12DB9F388C02019A748DF9D /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Tests" */;
@@ -280,44 +589,65 @@
 			);
 			name = "Pods-AvaDemo_Tests";
 			productName = "Pods-AvaDemo_Tests";
-			productReference = 55A5544802B1C951FA826FAA297D63D0 /* Pods_AvaDemo_Tests.framework */;
+			productReference = 07E6B76928821B7F2FDBF3849287CDA6 /* Pods_AvaDemo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9772630B2260F3028694760A02A2E1A9 /* AvaDemo */ = {
+		70037E8EC5C7BEC953B37A531F9D22BC /* AvaDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FC555DDCE4440233EAD31557A11B63F /* Build configuration list for PBXNativeTarget "AvaDemo" */;
+			buildConfigurationList = 35A1B9CDABD89826C55641E074DF0B5B /* Build configuration list for PBXNativeTarget "AvaDemo" */;
 			buildPhases = (
-				F558E3675D6740D8EEE0EEB80D16EBEC /* Headers */,
-				4B6AA3EE27C1DB6371FB44F5DE269193 /* Sources */,
-				FE0FE06CA8D266F92AE4218B2A56E24F /* Frameworks */,
-				DD7CBA0A0C1F7BC7BCA1B7420D34FEEC /* Resources */,
+				5C41D463783A6E2309131269B1B51EA1 /* Headers */,
+				253205DED13E62564E2DF5129307A14D /* Sources */,
+				AF66536480C0B3D932DF46A168624B6C /* Frameworks */,
+				BAD782231569FA8EF8F72A5665D0FE0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A9BC983833F2F2A0E3AB250B3342A047 /* PBXTargetDependency */,
+				E91CF96D97F50F0DB5A39D4BCC6153D5 /* PBXTargetDependency */,
 			);
 			name = AvaDemo;
 			productName = AvaDemo;
-			productReference = 7E1363BCFC3FD31AD679DAFB6894EC27 /* AvaDemo.framework */;
+			productReference = 4CF457C60F6777B5255B7054F09D4A2E /* AvaDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E2D7343351CFA2767B639CBBBE4F4FB4 /* Pods-AvaDemo_Example */ = {
+		BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6E1C0FB4EFDF5A19792F5754968CA97 /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Example" */;
+			buildConfigurationList = 1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
-				0B62D2B3E8CE621688FAE26D1A1F5A9F /* Headers */,
-				6EE3C9E67BEAE8A4C70EE9EAD133F4C6 /* Sources */,
-				AAC7951C6822D128E7583F04B3F71380 /* Frameworks */,
-				3334CDB29D243FDC372DB42ADBF1ED8D /* Resources */,
+				8B481F7D9424640B11DFD07C65E61B86 /* Headers */,
+				D6735FC939CD439E865C33F1416D8D12 /* Sources */,
+				FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */,
+				FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				848D91FE1AB1DEED5CFFD23E4700C805 /* PBXTargetDependency */,
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 54906C94E183652D0D0CC4F4AEE4371F /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C66AB619A95EE5E7FB55F49404E16B60 /* Pods-AvaDemo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1251432478D246E5AD84C4F17C72D50F /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Example" */;
+			buildPhases = (
+				835D631C3E2AF8213135CFE594332CC6 /* Headers */,
+				B64748D2657CE00933FE929BE47C10EB /* Sources */,
+				1E6814B81933EAE480D63EA5E1864B98 /* Frameworks */,
+				CEBA36FBF9FB221AFDE9E0F945E1D6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874C086992C56EBB28007DD2644D0117 /* PBXTargetDependency */,
+				8ECBBA721878F60DB68DE17FD0E17CF4 /* PBXTargetDependency */,
 			);
 			name = "Pods-AvaDemo_Example";
 			productName = "Pods-AvaDemo_Example";
-			productReference = 94F3BC61C4DC157D747E0F931F5232A2 /* Pods_AvaDemo_Example.framework */;
+			productReference = 6F0086000309D732F72B6069060A397E /* Pods_AvaDemo_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -337,29 +667,40 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 799A62748A7A5E0A54816A0147877083 /* Products */;
+			productRefGroup = 3573AA859D4739C6DDFA66B79BFD7F55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9772630B2260F3028694760A02A2E1A9 /* AvaDemo */,
-				E2D7343351CFA2767B639CBBBE4F4FB4 /* Pods-AvaDemo_Example */,
+				BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */,
+				70037E8EC5C7BEC953B37A531F9D22BC /* AvaDemo */,
+				3C743CC7DDE45F6A7062D5C9D846E56C /* AvaDemo-AvaDemo */,
+				C66AB619A95EE5E7FB55F49404E16B60 /* Pods-AvaDemo_Example */,
 				3E5F4978D56B921757AA0A9394499980 /* Pods-AvaDemo_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3334CDB29D243FDC372DB42ADBF1ED8D /* Resources */ = {
+		BAD782231569FA8EF8F72A5665D0FE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD373E5B456ADE60DE4DB4B2BAB0B576 /* AvaDemo.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBA36FBF9FB221AFDE9E0F945E1D6DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD7CBA0A0C1F7BC7BCA1B7420D34FEEC /* Resources */ = {
+		DC13C7CE35340B9E003D8055C8990D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444700BA998347670FEEFAF9117FB9BD /* AvaLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,24 +711,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		4B6AA3EE27C1DB6371FB44F5DE269193 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D7C25AD493772FA35ADF223D55209F /* AvaDemo-dummy.m in Sources */,
-				829A4510074043E31093A8AB0E09539E /* AvaLog.m in Sources */,
-				EA079EEBC9BD167BDCBDDC91C821A46B /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE3C9E67BEAE8A4C70EE9EAD133F4C6 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253205DED13E62564E2DF5129307A14D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5898E52B2765DA80D171ACBBDC68168C /* Pods-AvaDemo_Example-dummy.m in Sources */,
+				4BE7ED07CA93A8DEF8D1804767ABF82B /* AvaDemo-dummy.m in Sources */,
+				1EBF2AB002C8172D67DD5088CE5138F5 /* AvaLog.m in Sources */,
+				D35DF96F93BD96B4165D6EFCB9273DF9 /* AvaLoginViewController.m in Sources */,
+				9E84EBF0C6783B8EC9690C93DEFEEE26 /* AvaLogTest.m in Sources */,
+				545679B88F26F899733D80C02B77697C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F2F5EC28EC348CCF55D4844D54F5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64748D2657CE00933FE929BE47C10EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660A586C5C9C08A4356B2B518EA0D425 /* Pods-AvaDemo_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,122 +756,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6735FC939CD439E865C33F1416D8D12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */,
+				775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */,
+				66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */,
+				3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */,
+				EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */,
+				87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */,
+				F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */,
+				459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */,
+				8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */,
+				9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */,
+				A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */,
+				3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */,
+				8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */,
+				CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		1FE93D89030E34CE797E67775DB6CF5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AvaDemo_Example";
-			target = E2D7343351CFA2767B639CBBBE4F4FB4 /* Pods-AvaDemo_Example */;
+			target = C66AB619A95EE5E7FB55F49404E16B60 /* Pods-AvaDemo_Example */;
 			targetProxy = 2F3E640D3DC67D9D501A01A8998B9306 /* PBXContainerItemProxy */;
 		};
-		848D91FE1AB1DEED5CFFD23E4700C805 /* PBXTargetDependency */ = {
+		874C086992C56EBB28007DD2644D0117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
+			targetProxy = A1B262428E0163940994981B8F3D1EEA /* PBXContainerItemProxy */;
+		};
+		8ECBBA721878F60DB68DE17FD0E17CF4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AvaDemo;
-			target = 9772630B2260F3028694760A02A2E1A9 /* AvaDemo */;
-			targetProxy = C41C17DEDC58FE6F562C405FD2CA5531 /* PBXContainerItemProxy */;
+			target = 70037E8EC5C7BEC953B37A531F9D22BC /* AvaDemo */;
+			targetProxy = 7040B841C3547A21C6BF577554F32103 /* PBXContainerItemProxy */;
+		};
+		A9BC983833F2F2A0E3AB250B3342A047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
+			targetProxy = 89313C60AFFAB6CFC804CB5DE64C44AA /* PBXContainerItemProxy */;
+		};
+		E91CF96D97F50F0DB5A39D4BCC6153D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AvaDemo-AvaDemo";
+			target = 3C743CC7DDE45F6A7062D5C9D846E56C /* AvaDemo-AvaDemo */;
+			targetProxy = EB6CDD5749707B15E5E7B51D35EC02D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CA42A76F8BDA1F14BC39AF42B3F6879 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AvaDemo/AvaDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AvaDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AvaDemo/AvaDemo.modulemap";
-				PRODUCT_MODULE_NAME = AvaDemo;
-				PRODUCT_NAME = AvaDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1DB5EA3C4FD386A16C60A17A43963167 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B70EBC53C3D5B16E6E6CAC4C9ED02F2 /* Pods-AvaDemo_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4F939A812375F9864FF0708BB61A74D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF81549FFEE1CA38CF2BD525A95C3C41 /* Pods-AvaDemo_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -546,8 +847,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -576,11 +875,10 @@
 			};
 			name = Release;
 		};
-		87A26A67E9FB3C90F28ECB938AA9A5A6 /* Release */ = {
+		1567A6616201C1491FE2E6E24DD80B32 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 339E308B1D0166A703B6C7A3711B6148 /* Pods-AvaDemo_Tests.release.xcconfig */;
+			baseConfigurationReference = 8DA9A1CC8D8C61DC67B711CE1B1593F1 /* AvaDemo.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -590,19 +888,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AvaDemo/AvaDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AvaDemo/AvaDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/AvaDemo/AvaDemo.modulemap";
+				PRODUCT_MODULE_NAME = AvaDemo;
+				PRODUCT_NAME = AvaDemo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -610,9 +906,9 @@
 			};
 			name = Release;
 		};
-		980348C4624537E12EB00D7CFED61F0F /* Release */ = {
+		17CDB6006B1AB67A88CF93B9F6E65430 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2F82DB7AC218434F0C5FC193460C368 /* Pods-AvaDemo_Example.release.xcconfig */;
+			baseConfigurationReference = E67E93136B526654CBBE22FA68F602E2 /* Pods-AvaDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -624,7 +920,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -644,7 +940,56 @@
 			};
 			name = Release;
 		};
-		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+		40B92E8EC999698F19A9954874B01E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA9A1CC8D8C61DC67B711CE1B1593F1 /* AvaDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AvaDemo";
+				INFOPLIST_FILE = "Target Support Files/AvaDemo/ResourceBundle-AvaDemo-AvaDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AvaDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		417F504C48E20CF02EE6ABBD2EB92FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0743F711DA4A9D947A7BB1EF5E388B /* Pods-AvaDemo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -676,8 +1021,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -710,9 +1053,9 @@
 			};
 			name = Debug;
 		};
-		CC8DB818A3201C2C41DE5FBB5B166311 /* Debug */ = {
+		4D5FADB422F7453E6F39A41431EDC7D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0214312C6D2310B3A352056EB7F94306 /* AvaDemo.xcconfig */;
+			baseConfigurationReference = 8DA9A1CC8D8C61DC67B711CE1B1593F1 /* AvaDemo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -724,7 +1067,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/AvaDemo/AvaDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AvaDemo/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/AvaDemo/AvaDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -740,14 +1083,185 @@
 			};
 			name = Debug;
 		};
+		9F29E0697A8813E4CBFD0064D96ADC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FED1511ED96376AE5F37849CA8331EC /* Pods-AvaDemo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B752D113F577281207B4C492155C214F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9077F968A1EEEAF3ADFCD4582458F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582FF3862211F29857FACC1C120EA41F /* Pods-AvaDemo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvaDemo_Tests/Pods-AvaDemo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5A14DB591B5B224A5DE3711D9311E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F74C43CB993039C17AB3FEA1C961139F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA9A1CC8D8C61DC67B711CE1B1593F1 /* AvaDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AvaDemo";
+				INFOPLIST_FILE = "Target Support Files/AvaDemo/ResourceBundle-AvaDemo-AvaDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AvaDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1251432478D246E5AD84C4F17C72D50F /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F29E0697A8813E4CBFD0064D96ADC9A /* Debug */,
+				17CDB6006B1AB67A88CF93B9F6E65430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B752D113F577281207B4C492155C214F /* Debug */,
+				F5A14DB591B5B224A5DE3711D9311E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A1B9CDABD89826C55641E074DF0B5B /* Build configuration list for PBXNativeTarget "AvaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5FADB422F7453E6F39A41431EDC7D2 /* Debug */,
+				1567A6616201C1491FE2E6E24DD80B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B64E2C722A3EAD054D380F489370F012 /* Debug */,
-				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,26 +1269,17 @@
 		656243E7E12DB9F388C02019A748DF9D /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F939A812375F9864FF0708BB61A74D7 /* Debug */,
-				87A26A67E9FB3C90F28ECB938AA9A5A6 /* Release */,
+				417F504C48E20CF02EE6ABBD2EB92FB4 /* Debug */,
+				D9077F968A1EEEAF3ADFCD4582458F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FC555DDCE4440233EAD31557A11B63F /* Build configuration list for PBXNativeTarget "AvaDemo" */ = {
+		795EBAD48AC35CABBC8AACE9D78D77AA /* Build configuration list for PBXNativeTarget "AvaDemo-AvaDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC8DB818A3201C2C41DE5FBB5B166311 /* Debug */,
-				1CA42A76F8BDA1F14BC39AF42B3F6879 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F6E1C0FB4EFDF5A19792F5754968CA97 /* Build configuration list for PBXNativeTarget "Pods-AvaDemo_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DB5EA3C4FD386A16C60A17A43963167 /* Debug */,
-				980348C4624537E12EB00D7CFED61F0F /* Release */,
+				40B92E8EC999698F19A9954874B01E9A /* Debug */,
+				F74C43CB993039C17AB3FEA1C961139F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

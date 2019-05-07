@@ -328,18 +328,20 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/AvaDemo/AvaDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AvaDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AvaDemo_Example/Pods-AvaDemo_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE2E8761731749E0FC4139BA /* [CP] Check Pods Manifest.lock */ = {
